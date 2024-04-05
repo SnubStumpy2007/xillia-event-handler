@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Xillia Name Picker (Event Handler)</title>
-</head>
-<body>
-    <section>
+  </head>
+  <body>
+    <section class="background">
+      <article class="info">
         <h1>Type in a character's name, then click submit</h1>
-        <li>
-            <ul>Jude Mathis</ul>
-            <ul>Milla Maxwell</ul>
-            <ul>Elize Lutus</ul>
-            <ul>Alvin</ul>
-            <ul>Leia Rolando</ul>
-            <ul>Rowen J. Ilbert</ul>
-        </li>
+        <h1>Note, names are case-sensitive.</h1>
+        <ui class="list">
+          <ul>
+            Jude Mathis
+          </ul>
+          <ul>
+            Milla Maxwell
+          </ul>
+          <ul>
+            Elize Lutus
+          </ul>
+          <ul>
+            Alvin
+          </ul>
+          <ul>
+            Leia Rolando
+          </ul>
+          <ul>
+            Rowen J. Ilbert
+          </ul>
+        </ui>
+        <input type="text" id="input" />
         <button>submit</button>
+      </article>
+      <aside>
+        <div id="ansower"></div>
+      </aside>
     </section>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
