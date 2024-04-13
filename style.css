@@ -8,13 +8,17 @@ section{
     border-color: black;
     display: flex;
     flex-direction: row;
-    margin-right: 3rem
+    margin-right: 3rem;
+    width: 100rem;
+    height: 40rem;
 }
+
 
 .info{
     border: solid;
     border-color: blue;
     margin-left: 1rem;
+    margin-right: 5rem;
 }
 
 h1{
@@ -35,4 +39,9 @@ h1{
 .display-result {
     border-style: solid;
     border-color: red;
+}
+
+#character-image {  
+    width: 20rem;
+    height: 35rem;
 }
