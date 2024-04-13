@@ -3,37 +3,37 @@ document.getElementById("btn").addEventListener("click", function () {
   switch (inputText) {
     case "Jude Mathis":
       const introJude = document.getElementById("bio");
-      introJude.innerHTML += "Jude Mathis is a Med Student";
+      introJude.textContent = "Jude Mathis is a Med Student";
       const imageJude = document.getElementById("character-image");
       imageJude.src = "img/jude.jpg";
       break;
       case "Milla Maxwell":
       const introMilla = document.getElementById("bio");
-      introMilla.innerHTML += "Milla Maxwell is a god";
+      introMilla.textContent = "Milla Maxwell is a god";
       const imageMilla = document.getElementById("character-image");
       imageMilla.src = "img/milla.jpg";
       break;
       case "Leia Rolando":
       const introLeia = document.getElementById("bio");
-      introLeia.innerHTML += "Also a nursing student";
+      introLeia.textContent = "Also a nursing student";
       const imageLeia = document.getElementById("character-image");
       imageLeia.src = "img/leia.jpg";
       break;
       case "Elize Lutus":
       const introElize = document.getElementById("bio");
-      introElize.innerHTML += "Healer.  Her best friend is Teepo";
+      introElize.textContent = "Healer.  Her best friend is Teepo";
       const imageElize = document.getElementById("character-image");
       imageElize.src = "img/elize.jpg";
       break;
       case "Rowen J. Ilbert":
       const introRowen = document.getElementById("bio");
-      introRowen.innerHTML += "Old man Tactician";
+      introRowen.textContent = "Old man Tactician";
       const imageRowen = document.getElementById("character-image");
       imageRowen.src = "img/rowen.jpg";
       break;
       case "Alvin":
       const introAlvin = document.getElementById("bio");
-      introAlvin.innerHTML += "The traitor";
+      introAlvin.textContent = "The traitor";
       const imageAlvin = document.getElementById("character-image");
       imageAlvin.src = "img/alvin.jpg";
       break;
