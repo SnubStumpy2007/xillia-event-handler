@@ -41,3 +41,7 @@ document.getElementById("btn").addEventListener("click", function () {
             alert("Invalid choice");
   }
 });
+
+document.getElementById("reset-btn").addEventListener("click", function() {
+  location.reload();
+})
