@@ -39,12 +39,20 @@ h1{
 }
 
 .display-result {
-    border-style: solid;
-    border-color: red;
     max-width: 10rem;
     display: flex;
     /* justify-content: center; */
     align-items: center;
+}
+
+.char-bio{
+    height: 20rem;
+    width: 20rem;
+}
+#bio{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
 }
 
 #character-image {  
